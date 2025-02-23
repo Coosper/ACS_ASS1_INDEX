@@ -1,0 +1,58 @@
+body {
+    background-image: url('images/darkspace.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: white;
+	text-align: center;
+	padding-top: 1px;
+	font-style: italic;
+	font-size: 175%;
+}
+
+h2,h3 {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: white;
+	text-align: center;
+	padding-top: 1px;
+	font-style: italic;
+	font-size: 150%;
+}
+
+p {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+hr {
+	height: 3px;
+	background-color: white;
+	width: 800px;
+}
+
+.information_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0.5px solid white;
+}
+
+.face {
+	display: block;
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border: medium solid #FFFFFF;
+	
+}
